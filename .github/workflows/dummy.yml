@@ -14,6 +14,5 @@ jobs:
         run: echo "Hello, world!"
 
       - name: azure login
-        run: az login --service-principle --username 745b543b-e354-4b35-9cf3-97e8de1592a3--password 99x8Q~GhWNAXa0LWWVwcSKrVRgT0PcMlQArTEaEm--tenet cca441fa-1a33-47c9-99a1-76ffc55ce3bf
-
+        run: az login --service-principal --username 745b543b-e354-4b35-9cf3-97e8de1592a3 --password "<CLIENT_SECRET>" --tenant cca441fa-1a33-47c9-99a1-76ffc55ce3bf
           
